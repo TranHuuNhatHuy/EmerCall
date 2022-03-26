@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FC3A52"
+    tools:context="com.huy9515gmail.newemercall.BannedActivity">
+
+    <TextView
+        android:id="@+id/banned_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/banned_text1"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/banned_img"
+        android:layout_below="@+id/banned_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_sadface"/>
+
+    <TextView
+        android:id="@+id/banned_text2"
+        android:layout_below="@+id/banned_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/banned_text2"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btnQuestion"
+        android:layout_below="@+id/banned_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="More"
+        style="@style/AppTheme.Button" />
+
+</RelativeLayout>

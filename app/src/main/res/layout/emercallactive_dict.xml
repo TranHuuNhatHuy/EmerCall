@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/splash_creen">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_main"
+        />
+
+    <TextView
+        android:id="@+id/fragment_emercallactive_dict_title"
+        android:layout_below="@+id/toolbar_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/fragment_emercallactive_dict_title"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/emercallactive_dict_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_below="@+id/fragment_emercallactive_dict_title"></ListView>
+
+    <Button
+        android:id="@+id/dict_btnSwitch"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="Ambulance tracking"
+        style="@style/AppTheme.Button"/>
+
+    <Button
+        android:id="@+id/dict_btnFinish"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="Finish emergency case"
+        style="@style/AppTheme.Button"/>
+
+</RelativeLayout>

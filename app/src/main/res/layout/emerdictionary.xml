@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emerdict_activity">
+
+    <!-- Content Container -->
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_main"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/splash_creen"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emerdict_subtitle"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorTitle"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emerdict_describe"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="@color/colorTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <ListView
+            android:id="@+id/lvEmerdict"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="56dp"
+            android:layout_marginTop="5dp"></ListView>
+    </LinearLayout>
+
+    <include layout="@layout/bottom_navigation_bar"
+        android:id="@+id/bottom_navigation_emerdict"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_emerdict"
+        android:enabled="true"
+        android:icon="@drawable/ic_folder_black_24dp"
+        android:title="@string/emerdict_bottom"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_emercall"
+        android:enabled="true"
+        android:icon="@drawable/ic_warning_black_24dp"
+        android:title="@string/emercall_bottom"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_emeracc"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/emeracc_bottom"
+        app:showAsAction="ifRoom" />
+</menu>

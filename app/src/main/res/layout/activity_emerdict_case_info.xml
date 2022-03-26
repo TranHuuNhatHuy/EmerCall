@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.huy9515gmail.newemercall.Emerdict_case_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/splash_creen"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <include
+            android:id="@+id/toolbar_main"
+            layout="@layout/toolbar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <TextView
+                android:id="@+id/tv_Case"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="blah blah"
+                android:textColor="@color/colorTitle"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:id="@+id/tv_CaseInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="blah blah bloh bloh"
+                android:textColor="@color/colorTitle"
+                android:textSize="15dp" />
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/AppTheme.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="Quay lại"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

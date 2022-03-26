@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">EmerCall</string>
+    <string name="emerdict_bottom">EmerDict</string>
+    <string name="emercall_bottom">EmerCall</string>
+    <string name="emeracc_bottom">EmerAccount</string>
+    <string name="emercall_title">Emergency Call</string>
+    <string name="emerdict_title">Emergency Dictionary</string>
+    <string name="emeracc_title">EmerAccount</string>
+    <string name="emercall_subtitle">SEND EMERGENCY SIGNAL</string>
+    <string name="emerdict_subtitle">Emergency and First-aid guide</string>
+    <string name="emeracc_subtitle">User Information</string>
+
+    <string name="emerdict_describe">Below are information about symptoms, signs, and solutions for common emergency cases.</string>
+
+    <string name="DATABASE">EmergencyCase.txt</string>
+
+    <string name="flash_screen_text">For a safer, better society</string>
+
+    <string name="emercall_activated_1_title">Emergency signal sent!</string>
+    <string name="emercall_activated_1_description">Your location has been sent. Please enter information regarding age and gender of the victim, Then choose notable symptoms, signs of victim by clicking the list below. Finally, press Confirm button.</string>
+
+    <string name="fragment1_text1">Welcome to EmerCall</string>
+    <string name="fragment1_text2">Press Next to continue</string>
+
+    <string name="fragment2_text1">EmerCall (Emergency Call) is an application made for the purpose of supporting emergency cases with only a button press.</string>
+    <string name="fragment2_text2">In addition, EmerCall is also integrated a database of notable symptoms, signs, and proper first-aid methods for emergency cases. This application also allows users to track the incoming ambulances when an emergency case occurs.</string>
+
+    <string name="fragment3_emercall">EmerCall: send an emergency signal. When activated, it will send user location, victim status to hospital server, meanwhile allowing users to access EmerDict.</string>
+    <string name="fragment3_emerdict">EmerDict: a database of emergency cases. EmerDict contains information about signs, symptoms, first-aid methods, references of emergency cases.</string>
+    <string name="fragment3_emeraccount">EmerAccount: contains user information for monitoring purposes from hospitals.</string>
+    <string name="fragment3_text1">You can interact these functions by the navigation bar at the bottom of the screen.</string>
+
+    <string name="fragment4_text1">These information contain name, date of birth, gender, health insurance ID, address and personal ID. These information are unchangeable, please enter correctly.</string>
+
+    <string name="fragment5_text1">When activated, EmerCall will send user location to the server, helping designated ambulance to approach the user faster, increasing victim survivability.</string>
+    <string name="fragment5_text2">Thus, to ensure EmerCall performance, please authorize Location Permission for this application.</string>
+    <string name="fragment5_text3">To authorize, press AUTHORIZE LOCATION PERMISSION button below. A message will appear, asking the user for confirmation. Press Allow to confirm.</string>
+    <string name="fragment5_text4">After successfully authorizing Location Permission, press Next to continue.</string>
+
+    <string name="fragment6_text1">Notice when using EmerCall</string>
+    <string name="fragment6_text2">Do not press Android Back button when using EmerCall, since this may affect user experience.</string>
+    <string name="fragment6_text3">In EmerCall, to avoid emergency signals of other users, DO NOT perform fake calls. These actions below are considered to be a fake call:</string>
+    <string name="fragment6_text4">- Comfirms emergency request and the ambulance cannot find any users or victims after reaching the destination.</string>
+    <string name="fragment6_text5">- Confirms emergency request and then transfers the victim to the hospital (in case ambulances are unavailable, the user will receiver a notification from the server)</string>
+    <string name="fragment6_text6">If a device using EmerCall has performed 3 fake calls, it will be banned from EmerCall system.</string>
+
+    <string name="fragmentfinal_text1">Basic guide completed</string>
+    <string name="fragmentfinal_text2">Welcome to EmerCall!</string>
+
+    <string name="emercall_describe1">Press only in emergency cases</string>
+    <string name="emercall_describe2">After activating emergency signal, observe the victim, select corresponding signs and symptoms, and track the upcoming ambulance (if available)</string>
+
+    <string name="fragment_emercallactive_dict_title">First-aid methods for emergency cases</string>
+    <string name="fragment_emercallactive_map_title">Ambulance tracking</string>
+
+    <string name="banned_text1">Your device has been banned from EmerCall system.</string>
+    <string name="banned_text2">The system has detected that you had performed 3 fake calls. We apologize for this inconvenience, but we have to ensure the experience of other users.</string>
+
+    <string name="bannedexplain_title1">What is a fake call?</string>
+    <string name="bannedexplain_title2">How can I regain my accessibility to EmerCall system?</string>
+    <string name="bannedexplain_text5">To regain EmerCall accessibility, please contact the nearest hospital or medical facility connected to EmerCall system, or application provider via these contact information:</string>
+    <string name="bannedexplain_text6">huy9515@gmail.com</string>
+
+    <string name="GOOGLE_API_KEY">AIzaSyAFZWRk2TZyQfmAWEpUmekQtwKYuOiFf-I</string>
+
+</resources>

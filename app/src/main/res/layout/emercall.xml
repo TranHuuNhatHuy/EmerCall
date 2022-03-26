@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmerCall">
+
+
+   <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_main" />
+
+    <LinearLayout
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/splash_creen"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/emercall_subtitle"
+            android:textColor="@color/colorTitle"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/emercall_describe1"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/emercall_describe2"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/btnEmerCall"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/emercall_button"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <include layout="@layout/bottom_navigation_bar"
+        android:id="@+id/bottom_navigation_emercall"
+        />
+
+</RelativeLayout>

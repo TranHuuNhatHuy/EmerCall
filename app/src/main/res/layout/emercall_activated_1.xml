@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="55dp"
+            android:background="@color/splash_creen">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/emercall_activated_1_title"
+                android:textColor="@color/colorTitle"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_below="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/emercall_activated_1_description"
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/emercallactive_1_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_below="@+id/textView2"
+                android:layout_margin="10dp">
+                
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:weightSum="4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/textview_shape">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="-7dp"
+                        android:layout_gravity="center_vertical"
+
+                        android:src="@drawable/ic_gender_white" />
+                    
+                    <Spinner
+                        android:id="@+id/spnGender"
+                        android:layout_width="0dp"
+                        android:layout_weight="2.5"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown"></Spinner>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edtAge"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="20dp"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:background="@drawable/textview_noimage_shape"
+                    android:hint="Enter age"/>
+                
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lvEmerdict"
+                android:layout_below="@+id/emercallactive_1_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="52dp">
+            </ListView>
+
+            <Button
+                android:id="@+id/btnAffirmative"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:text="Confirm"
+                style="@style/AppTheme.Button" />
+
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">EmerCall</string>
+    <string name="emerdict_bottom">Emerdict</string>
+    <string name="emercall_bottom">EmerCall</string>
+    <string name="emeracc_bottom">EmerAccount</string>
+    <string name="emercall_title">Emergency Call</string>
+    <string name="emerdict_title">Emergency Dictionary</string>
+    <string name="emeracc_title">EmerAccount</string>
+    <string name="emercall_subtitle">Gửi tín hiệu cấp cứu</string>
+    <string name="emerdict_subtitle">Các tình huống cần cấp cứu</string>
+    <string name="emeracc_subtitle">Thông tin người dùng</string>
+
+    <string name="emerdict_describe">Dưới đây là thông tin, dấu hiệu, cách xử lý của các trường hợp, triệu chứng có thể gây nguy hiểm, cần được phát hiện và đưa đi cấp cứu kịp thời nếu cần thiết.</string>
+
+    <string name="DATABASE">EmergencyCase.txt</string>
+
+    <string name="flash_screen_text">Thời gian là vàng bạc, đặc biệt khi cấp cứu</string>
+
+    <string name="emercall_activated_1_title">Đã gửi tín hiệu cấp cứu</string>
+    <string name="emercall_activated_1_description">Vị trí của bạn đã được gửi đi. Yêu cầu nhập đầy đủ tuổi, giới tính người bị nạn, sau đó quan sát người bị nạn và chọn những triệu chứng/biểu hiện của nạn nhân trong danh sách dưới đây. Cuối cùng, nhấn Xác nhận phía dưới màn hình.</string>
+
+    <string name="fragment1_text1">Chào mừng đến với EmerCall</string>
+    <string name="fragment1_text2">Nhấn Tiếp để bắt đầu tìm hiểu EmerCall</string>
+
+    <string name="fragment2_text1">EmerCall, viết tắt của Emergency Call, là một ứng dụng được tạo ra với mục đích hỗ trợ các ca cấp cứu khẩn cấp chỉ với một nút nhấn</string>
+    <string name="fragment2_text2">Ngoài ra, EmerCall còn được tích hợp một bộ thông tin tra cứu bổ ích về các trường hợp cấp cứu. Khi có sự cố, EmerCall giúp người dùng có thêm thông tin cần thiết để sơ cứu và theo dõi vị trí hiện tại của xe cứu thương</string>
+
+    <string name="fragment3_emercall">EmerCall: gửi tín hiệu cấp cứu. Khi kích hoạt sẽ gửi vị trí người dùng, tình trạng nạn nhân đến máy chủ bệnh viện, đồng thời gợi ý cách sơ cứu tùy trường hợp</string>
+    <string name="fragment3_emerdict">EmerDict: từ điển tra cứu các trường hợp cấp cứu. EmerDict chứa thông tin về dấu hiệu, triệu chứng, cách sơ cứu, tham khảo về các trường hợp cần cấp cứu</string>
+    <string name="fragment3_emeraccount">EmerAccount: quản lý thông tin của người dùng. Thông tin này sẽ được đồng bộ, kiểm duyệt bởi máy chủ bệnh viện</string>
+    <string name="fragment3_text1">Bạn có thể tương tác với 3 chức năng chính này bằng thanh tác vụ phía dưới màn hình ứng dụng.</string>
+
+    <string name="fragment4_text1">Các thông tin này bao gồm họ và tên, ngày sinh, giới tính, mã thẻ bảo hiểm y tế, địa chỉ và số chứng minh nhân dân. Các thông tin này sẽ KHÔNG THỂ THAY ĐỔI ĐƯỢC, do đó, xin hãy nhập chính xác</string>
+
+    <string name="fragment5_text1">Khi được kích hoạt, EmerCall gửi vị trí người dùng đến xe cấp cứu, giúp xe tiếp cận hiện trường nhanh hơn, tăng khả năng sống sót cho nạn nhân</string>
+    <string name="fragment5_text2">Do đó, để EmerCall hoạt động, bạn cần cấp quyền truy cập vị trí cho ứng dụng</string>
+    <string name="fragment5_text3">Để cấp quyền truy cập vị trí, ấn vào nút CẤP QUYỀN TRUY CẬP VỊ TRÍ phía dưới. Một bảng thông báo hiện ra, hỏi người dùng về việc cấp quyền truy cập vị trí. Ấn Allow để xác nhận</string>
+    <string name="fragment5_text4">Sau khi cấp quyền truy cập vị trí thành công, ấn nút Tiếp để đến phần hướng dẫn tiếp theo</string>
+
+    <string name="fragment6_text1">Một số lưu ý khi dùng EmerCall app</string>
+    <string name="fragment6_text2">Không nên dùng phím Back (Quay lại) trên thanh điều hướng Android (phím nằm ở góc dưới bên phải thiết bị) khi đang sử dụng EmerCall app, vì điều này có thể ảnh hưởng đến trải nghiệm người dùng</string>
+    <string name="fragment6_text3">Trong EmerCall, để tránh ảnh hưởng đến việc yêu cầu cấp cứu của những người dùng khác, người sử dụng tuyệt đối không được thực hiện những yêu cầu ảo. Các trường hợp dưới đây được tính là một yêu cầu ảo:</string>
+    <string name="fragment6_text4">- Xác nhận yêu cầu cấp cứu, khi xe cứu thương đến lại không tìm được nạn nhân hay người phát yêu cầu</string>
+    <string name="fragment6_text5">- Xác nhận yêu cầu cấp cứu, sau đó tự ý chuyên chở nạn nhân trước khi xe cấp cứu đến (trường hợp không có xe cấp cứu sẽ nhận được thông báo từ máy chủ)</string>
+    <string name="fragment6_text6">Nếu một thiết bị sử dụng EmerCall app được ghi nhận đã thực hiện 3 lần yêu cầu ảo, thiết bị đó sẽ bị tước quyền truy cập khỏi hệ thống EmerCall</string>
+
+    <string name="fragmentfinal_text1">Quá trình hướng dẫn căn bản hoàn tất</string>
+    <string name="fragmentfinal_text2">Chào mừng đến với EmerCall !</string>
+
+    <string name="emercall_describe1">Chỉ nhấn khi có trường hợp cần đưa đi cấp cứu</string>
+    <string name="emercall_describe2">Sau khi kích hoạt cuộc gọi khẩn cấp EmerCall, cần bình tĩnh ghi nhận trạng thái nạn nhân, chọn các triệu chứng, và theo dõi tình trạng nạn nhân cũng như vị trí xe cấp cứu hiện thời</string>
+
+    <string name="fragment_emercallactive_dict_title">Các biện pháp cấp cứu tạm thời</string>
+    <string name="fragment_emercallactive_map_title">Theo dõi vị trí xe cấp cứu</string>
+
+    <string name="banned_text1">Thiết bị của bạn đã bị trục xuất khỏi hệ thống EmerCall</string>
+    <string name="banned_text2">Hệ thống ghi nhận bạn đã thực hiện cuộc gọi ảo lần thứ 3. Chúng tôi rất tiếc khi phải thông báo rằng chúng tôi buộc phải khóa quyền truy cập thiết bị của bạn vào hệ thống EmerCall, nhằm đảm bảo khả năng gọi xe cấp cứu từ những người dùng khác</string>
+
+    <string name="bannedexplain_title1">Cuộc gọi ảo là gì?</string>
+    <string name="bannedexplain_title2">Làm thế nào để tôi lấy lại truyền truy cập vào hệ thống EmerCall?</string>
+    <string name="bannedexplain_text5">Để lấy lại quyền truy cập vào hệ thống EmerCall, hãy liên hệ với bệnh viện, cơ sở y tế gần bạn nằm trong hệ thống EmerCall, hoặc với nhà cung cấp ứng dụng theo các địa chỉ liên hệ sau:</string>
+    <string name="bannedexplain_text6">huy9515@gmail.com</string>
+
+    <string name="GOOGLE_API_KEY">AIzaSyAFZWRk2TZyQfmAWEpUmekQtwKYuOiFf-I</string>
+
+</resources>

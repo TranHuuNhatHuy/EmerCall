@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "780696198934",
+    "firebase_url": "https://new-emercall.firebaseio.com",
+    "project_id": "new-emercall",
+    "storage_bucket": "new-emercall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780696198934:android:e5644905933f12b08d7a37",
+        "android_client_info": {
+          "package_name": "com.huy9515gmail.newemercall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780696198934-qba324buec0q9vrckgh7gq5d4d64ejq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYg1W-tD-S4Ab79ZGWw-quEfuPgVRakuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780696198934-qba324buec0q9vrckgh7gq5d4d64ejq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

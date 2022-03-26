@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="807"
+    android:viewportHeight="807"
+    android:width="807dp"
+    android:height="807dp">
+    <group
+        android:translateX="-22.5"
+        android:translateY="244.5">
+        <path
+            android:pathData="M829 159A403 403 0 0 1 426 562 403 403 0 0 1 23 159 403 403 0 0 1 426 -244 403 403 0 0 1 829 159Z"
+            android:strokeWidth="1"
+            android:fillColor="#ff0000"
+            android:strokeColor="#ff0000"
+            android:strokeMiterLimit="10" />
+        <path
+            android:pathData="M795 159A369 369 0 0 1 426 528 369 369 0 0 1 57 159 369 369 0 0 1 426 -210 369 369 0 0 1 795 159Z"
+            android:strokeWidth="1"
+            android:fillColor="#ffffff"
+            android:strokeColor="#ff0000"
+            android:strokeMiterLimit="10" />
+        <path
+            android:pathData="M301 -166l250 0 0 650.09998 -250 0z"
+            android:strokeWidth="1"
+            android:fillColor="#d80027"
+            android:strokeColor="#ff0000"
+            android:strokeMiterLimit="10" />
+        <path
+            android:pathData="M100.9 34.099998l650.09998 0 0 250.000002 -650.09998 0z"
+            android:strokeWidth="1"
+            android:fillColor="#d80027"
+            android:strokeColor="#ff0000"
+            android:strokeMiterLimit="10" />
+        <path
+            android:pathData="M512.2 -34.9l-172.5 0c-14.4 0 -26.1 11.8 -26.1 26.2l0 335.4c0 14.4 11.8 26.2 26.1 26.2l172.5 0c14.4 0 26.1 -11.8 26.1 -26.2l0 -335.4c0 -14.4 -11.7 -26.2 -26.1 -26.2zm-113.8 18.9l55.2 0c1.7 0 3.2 1.4 3.2 3.2 0 1.8 -1.4 3.2 -3.2 3.2l-55.2 0c-1.7 0 -3.2 -1.4 -3.2 -3.2 0 -1.8 1.4 -3.2 3.2 -3.2zM426 339.9c-7.2 0 -13.1 -5.9 -13.1 -13.1 0 -7.2 5.8 -13.1 13.1 -13.1 7.3 0 13.1 5.9 13.1 13.1 0 7.2 -5.9 13.1 -13.1 13.1zm94.1 -35.4l-188.3 0 0 -297.8 188.4 0 0 297.8zm-94.1 -88c-25 0 -48.5 -9.8 -66.2 -27.5 -2.5 -2.6 -2.5 -6.7 0 -9.3 2.6 -2.6 6.7 -2.6 9.3 0 15.2 15.2 35.4 23.6 56.9 23.6 21.5 0 41.7 -8.4 56.9 -23.6 2.5 -2.6 6.7 -2.6 9.3 0 2.5 2.6 2.5 6.7 0 9.3 -17.7 17.8 -41.2 27.5 -66.2 27.5zM411.2 109.3c0 8.8 -7.1 15.9 -15.9 15.9 -8.8 0 -15.9 -7.1 -15.9 -15.9 0 -8.8 7.1 -15.9 15.9 -15.9 8.8 0 15.9 7.1 15.9 15.9zm61.3 0c0 8.8 -7.1 15.9 -15.9 15.9 -8.8 0 -15.9 -7.1 -15.9 -15.9 0 -8.8 7.1 -15.9 15.9 -15.9 8.8 0 15.9 7.1 15.9 15.9z"
+            android:strokeWidth="1"
+            android:fillColor="#ffffff"
+            android:strokeColor="#ff0000"
+            android:strokeMiterLimit="10" />
+    </group>
+</vector>

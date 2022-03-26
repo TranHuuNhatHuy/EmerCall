@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huy9515gmail.newemercall">
+
+    <uses-sdk android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAFZWRk2TZyQfmAWEpUmekQtwKYuOiFf-I" />
+
+        <activity android:name=".EmerCall" />
+        <activity android:name=".Emerdict_activity" />
+        <activity android:name=".Emeracc_activity" />
+        <activity android:name=".Emerdict_case_info" />
+        <activity android:name=".EmercallActivated" />
+        <activity android:name=".EmeractiveDict" />
+        <activity android:name=".EmeractiveDictCaseInfo" />
+        <activity android:name=".EmeractiveMap" />
+        <activity android:name=".WelcomeActivity1" />
+        <activity android:name=".WelcomeActivity2" />
+        <activity android:name=".WelcomeActivity3" />
+        <activity android:name=".WelcomeActivity4" />
+        <activity android:name=".WelcomeActivity5" />
+        <activity android:name=".WelcomeActivityFinal" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BannedActivity" />
+        <activity android:name=".WelcomeActivity6" />
+        <activity android:name=".BannedExplainActivity" />
+    </application>
+
+</manifest>
